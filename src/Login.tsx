@@ -46,7 +46,7 @@ const Login = () => {
                   Username
                 </label>
                 <input
-                  type="text"
+                  type="name"
                   placeholder="Username.."
                   value={name}
                   onChange={(e) => setName(e.target.value)}
@@ -102,3 +102,4 @@ const Login = () => {
 };
 
 export default Login;
+
