@@ -1,8 +1,15 @@
-import {} from "./features/counter/Counter";
-import Login from "./Login";
+import Login from './Login'
+import Logout from './Logout';
 
-function App() {
-  return <Login />;
-}
+
+
+const App = () => {
+  return (
+    <div className="">
+      <Login/>
+      <Logout/>
+    </div>
+  );
+};
 
 export default App;
